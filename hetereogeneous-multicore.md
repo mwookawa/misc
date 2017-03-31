@@ -11,7 +11,7 @@ https://people.inf.ethz.ch/troscoe/pubs/osdi14_zellweger.pdf
 
 two more notes brought up in the paper and above:
 
-**&live patching in native runtime systems** has been approached previously at userlevel, most notably by Iulian Neamtiu's Ginseng. Reductively speaking, Ginseng's technique finds safe execution points in which to flip function pointers from one implementation to another within the same virtual address space:
+**live patching in native runtime systems** has been approached previously at userlevel, most notably by Iulian Neamtiu's Ginseng. Reductively speaking, Ginseng's technique finds safe execution points in which to flip function pointers from one implementation to another within the same virtual address space:
 
 http://www.cs.umd.edu/~mwh/papers/ginsengMT.pdf
 http://www.cs.umd.edu/~mwh/papers/mutatis-journal.pdf
