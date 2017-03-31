@@ -11,14 +11,14 @@ https://people.inf.ethz.ch/troscoe/pubs/osdi14_zellweger.pdf
 
 two more notes brought up in the paper and above:
 
-*live patching in native runtime systems* has been approached previously at userlevel, most notably by Iulian Neamtiu's Ginseng. Reductively speaking, Ginseng's technique finds safe execution points in which to flip function pointers from one implementation to another within the same virtual address space:
+**&live patching in native runtime systems** has been approached previously at userlevel, most notably by Iulian Neamtiu's Ginseng. Reductively speaking, Ginseng's technique finds safe execution points in which to flip function pointers from one implementation to another within the same virtual address space:
 
 http://www.cs.umd.edu/~mwh/papers/ginsengMT.pdf
 http://www.cs.umd.edu/~mwh/papers/mutatis-journal.pdf
 
 Ginseng's safety requirements and the layers of abstraction required to do the safety reasoning prevent implementation at the kernel layer.
 
-*dark silicon, code-dependent heterogeneous MP:* one mode of heterogeneous computing that has been looked at in the past few years has been the notion that processing dies are shrinking much faster than switching impedances are dropping; as a result, very little processor die can be active at any given time. hence, as silicon wafer fabrication nodes become smaller, an drastically increasing percentage of the fabricated processor die must be 'dark', or inactive per unit time.
+**dark silicon, code-dependent heterogeneous MP:** one mode of heterogeneous computing that has been looked at in the past few years has been the notion that processing dies are shrinking much faster than switching impedances are dropping; as a result, very little processor die can be active at any given time. hence, as silicon wafer fabrication nodes become smaller, an drastically increasing percentage of the fabricated processor die must be 'dark', or inactive per unit time.
 
 Consequently, there has a wide debate on what to lithograph onto silicon that will largely be dark. Generally, people agree that more cores should be placed on a die. However, these cores can (and maybe must) be much more specialized than the primary or "application" core. 
 
