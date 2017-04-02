@@ -1,0 +1,26 @@
+Reading technical papers;
+
+- Read math lazily: don’t think critically about definitions until they are used.
+    - Math is always a series of definitions followed by algebraic manipulation of those definitions.
+    - Order: Definitions _always_ precede manipulations. Ordering that disobeys this rule results in an inconsistent argument that is ill-formed and is best ignored.
+    - Well-formed math is always accompanied by examples and other intuition-building explanatory prose. Read this first! Don’t attempt to compute on the precise definitions and manipulations until you have a strong intuition
+    - A strong intuition is: sufficient understanding to derive an approximation of the authors’ algebra and definitions _only_ from the prose.
+- Skim. Skim. Skim. Every well-formed technical paragraph has the following form:
+    - The single point made in this paragraph (1-2 lines).
+    - Elaboration (2-3 lines).
+    - Summary and transition to next point (1-2 lines).
+    - Effectively skimming. Take many passes with small bites of reading per pass.
+        - 1. Ignore the elaboration, transitions and figures on your first pass.
+        - 2. Ignore the elaboration and figures on your second pass.
+        - 3. Ignore the figures on your third pass.
+        - 4. Finally, skim the figures and classify each as either definitions or algebra.
+    - It often helps to takes notes directly on the paper as you do this. For example, on each figure, circle the definitions and write down a pointer from each algebraic sentence to closest relevant definitions.
+- You may not be at fault: Accept and realize that when the author is at fault for lack of clarity, there may be little you can do to decipher the text.
+    - Ambiguity is the hallmark of unclear text.
+    - If there is a likely ambiguity, your only responsibility is to note the point of ambiguity and move on.
+- Every paper is slightly ambiguous: for various reasons, it is impossible to write a completely self-contained paper in CS
+    - Page limits, cultural issues, etc.
+    - Research is a social process: always feel free to reach out to the authors of the paper.
+    - The citation network of the paper is often a network of definitions needed to decipher the paper.
+    - In my opinion (!), buggy papers are as inevitable as buggy programs. Maybe that is because I write both?
+
