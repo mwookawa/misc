@@ -5,6 +5,11 @@ Reading technical papers;
     - Order: Definitions _always_ precede manipulations. Ordering that disobeys this rule results in an inconsistent argument that is ill-formed and is best ignored.
     - Well-formed math is always accompanied by examples and other intuition-building explanatory prose. Read this first! Don’t attempt to compute on the precise definitions and manipulations until you have a strong intuition
     - A strong intuition is: sufficient understanding to derive an approximation of the authors’ algebra and definitions _only_ from the prose.
+- Separate "Motivation and Problem Statement" from "Proposed Solution Framework and Solution"
+    - Every paper poses a problem and then proposes a solution. You should be able to cleanly separate the statements in the paper into one of these two classes.
+    - Finding related work reduces to finding papers that are similar in problem statement, and _separately_, finding papers that propose similar mathematical frameworks.
+    - The prose describing the key idea of the proposed solution framework should be sufficient to derive an approximation of the authors' proposed solution
+    - The prose describing the motivation should be sufficient to approximate the authors' problem statement.
 - Skim. Skim. Skim. Every well-formed technical paragraph has the following form:
     - The single point made in this paragraph (1-2 lines).
     - Elaboration (2-3 lines).
