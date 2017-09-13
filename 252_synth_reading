@@ -1,0 +1,23 @@
+Lazy abstraction (CEGAR) —> bodik-style sketching (PLDI08) (CEGIS) —> programming by example (i.e., input/outputs) -> constraint-based synthesis -> ML optimization
+
+Instead of SLAM, I’m just going to show my bias and pick ranjit and rupak’s lazy abstraction paper. It is much better at showing how CEGAR can be used in practice.
+http://goto.ucsd.edu/~rjhala/papers/lazy_abstraction.pdf
+
+Sketching via CEGIS
+https://people.csail.mit.edu/asolar/papers/Solar-LezamaJB08.pdf
+Don’t let the concurrency throw you off. This is the first example of sketching infinite state programs and the generally recommended intro to CEGIS, which is the foundation for all practical sketching-style synthesis.
+
+Flash fill (easiest I/O paper)
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/popl11-synthesis.pdf
+
+I prefer this paper for programming by example, but I have a natural bias towards data structure reasoning. In my head, this is extremely simple, but from presenting this multiple times in a group setting, I don’t think I was very successful..
+https://www.cs.rice.edu/~sc40/pubs/pldi15.pdf
+
+This paper generalizes all the different flashfill-components, but it is a bit obtuse compared to the extremely direct popl11 paper. I haven’t tried to present this paper in a group setting.
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/pldi14-tds.pdf
+
+Constraint-based synthesis (sketching finds the first satisfying program. Synapse finds the optimal). This paper is much more fun than the POPL10 paper.
+http://synapse.uwplse.org/synapse-popl16.pdf
+
+This is the first constraint-based synthesis paper, but it is very obtuse :/ https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/popl10_synthesis.pdf
+
