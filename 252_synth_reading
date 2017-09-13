@@ -1,4 +1,4 @@
-Lazy abstraction (CEGAR) —> bodik-style sketching (PLDI08) (CEGIS) —> programming by example (i.e., input/outputs) -> constraint-based synthesis -> ML optimization
+Lazy abstraction (CEGAR) —> bodik-style sketching (PLDI08) (CEGIS) —> programming by example (i.e., input/outputs) -> constraint-based synthesis -> ML optimization -> wrap-up journal-like paper comparing methods.
 
 Instead of SLAM, I’m just going to show my bias and pick ranjit and rupak’s lazy abstraction paper. It is much better at showing how CEGAR can be used in practice.
 http://goto.ucsd.edu/~rjhala/papers/lazy_abstraction.pdf
@@ -27,3 +27,26 @@ This is the first constraint-based synthesis paper, but it is very obtuse :/ h
 
 (First) and fundamental concepts for using machine learning to increase speed of program synthesis (with no neural network magic)
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/83-A-Machine-Learning-Framework-for-Programming-by-Example.pdf
+
+
+**final reading list**
+
+- http://goto.ucsd.edu/~rjhala/papers/lazy_abstraction.pdf
+-- Practial applied CEGAR
+
+https://people.csail.mit.edu/asolar/papers/Solar-LezamaJB08.pdf
+from CEGAR to CEGIS. Yes, this applies it to bounded concurrency, which adds an unimportant layer of complexity, but the vast majority of the paper is just inductive sketching. 
+there are a huge number of CEGIS papers, and it looks like ras bodik actually prefers the first rosette paper, but i find it to be far too general.
+
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/popl11-synthesis.pdf
+Program synthesis using input/output examples (ie programming by example). the first and classic paper. also the most practical and demonstrates that this is not just PL theory.
+
+http://synapse.uwplse.org/synapse-popl16.pdf
+constraint-based synthesis. pure proof search with a cool twist (optimal program w/rt a goal function)
+
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/83-A-Machine-Learning-Framework-for-Programming-by-Example.pdf
+using machine learning to speed up program synthesis: this is, i think, the most straightforward paper in which the predictor uses semantic information
+
+https://rishabhmit.bitbucket.io/papers/fmcad13.pdf
+omnibus wrap-up of program synthesis. all the above methods compared subjectively and then empirically for efficiency.
+
