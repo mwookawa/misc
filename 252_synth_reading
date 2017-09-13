@@ -3,9 +3,13 @@ Lazy abstraction (CEGAR) —> bodik-style sketching (PLDI08) (CEGIS) —> progra
 Instead of SLAM, I’m just going to show my bias and pick ranjit and rupak’s lazy abstraction paper. It is much better at showing how CEGAR can be used in practice.
 http://goto.ucsd.edu/~rjhala/papers/lazy_abstraction.pdf
 
-Sketching via CEGIS
+Sketching via CEGIS (ie, CEGAR to CEGIS)
 https://people.csail.mit.edu/asolar/papers/Solar-LezamaJB08.pdf
 Don’t let the concurrency throw you off. This is the first example of sketching infinite state programs and the generally recommended intro to CEGIS, which is the foundation for all practical sketching-style synthesis.
+
+there is another really good CEGIS paper..
+https://rishabhmit.bitbucket.io/papers/fmcad13.pdf
+but it has a really annoying section (F.) on simple machine learning. this is a good omnibus wrap-up paper for the end of the synthesis grouping..
 
 Flash fill (easiest I/O paper)
 https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/popl11-synthesis.pdf
